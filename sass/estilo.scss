@@ -1,0 +1,342 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+@import "fontface";
+@import "sharrre";
+@import "_goteo";
+
+body{
+	background-image: url("/img/purty_wood.jpg");
+}
+a:link, a:visited, a:hover{
+	text-decoration: none;
+	color: black
+}
+.imprimir{
+	&.ensena{
+		top:0px;
+	}
+	top:-35px;
+	@include transition(top .5s ease-in-out 2s);
+	z-index:1000;
+	position:fixed;
+	width:100%;
+	height: 35px;
+	background: #FAF7F7;
+	border-top: 1px solid silver;
+	box-shadow: inset 0 1px white, 0 1px 3px rgba(34, 25, 25, 0.4);
+	p{
+		display: block;
+		position: relative;
+		width: 980px;
+		padding: 0px;
+		margin: 0px auto;
+		text-align: center;
+		line-height: 35px;
+		font: 14px/35px 'Open Sans', sans-serif;
+		color: #221919;
+		text-shadow: 0 1px rgba(255, 255, 255, 1);
+		.icon-print{
+			@include box-sizing (border-box);
+			display: inline-block;
+			width:35px;
+			height:35px;
+			line-height: 35px;
+			vertical-align: middle;
+			background-image: url(/img/printer.png);
+			background-repeat: no-repeat;
+			background-size: 17px 17px;
+			background-position: 8px 8px;
+			margin:0px;
+			padding: 5px 5px 5px 5px;
+		}
+		.print{
+			padding: 0px; 
+			margin: 0px;
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.highlight {
+	left: -3px;
+	background-image: url(/img/highlight.png);
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0px 0px;
+	margin-left: -5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 105%;
+	line-height: 200%;
+	overflow: visible;
+	height: 32px;
+	@include transition(all .1s linear);
+	&:hover{
+		opacity: 0.8;
+	};
+}
+.contenedor{
+	width:980px;
+	margin: 50px auto 50px auto;
+	background: url(/img/fondo-y-repeat.png);
+	@include box-shadow(rgba(0,0,0,0.75) 0px 0px 5px);
+	position:relative;
+	header{
+		@include clearfix;
+		width:780px;
+		margin:20px 90px 20px 110px;
+		background: url(/img/linea-a-mano-1px.png) center top no-repeat;
+		.creditos{
+			width:780px;
+			margin-top:30px;
+			p{
+				font: 12px/20px 'Open Sans', sans-serif;
+				margin:0px;
+				padding:0px;
+				margin-bottom: 10px;
+				a:link{
+					@include transition(text-decoration .1s linear);
+					font-weight:bold;
+				}
+				a:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+		hgroup{
+			margin-top: 50px;
+			text-align: center;
+			h1{
+				font: 64px 'FFFTusjBold';
+				margin: 0px 0px;
+			}
+			h2{
+				margin: 0px 0px;
+				font: 32px/22px 'FFFTusjBold';
+			}
+		}
+		p{
+			margin: 5px 0px 35px 0px;
+			display: block;
+			font: 18px/28px 'Open Sans', sans-serif;
+			text-align: center;
+		}
+
+	}
+	section{
+		@include clearfix;
+		width:780px;
+		margin:20px 90px 20px 110px;
+		hgroup{
+			text-align: center;
+			margin: 0px;
+			padding-bottom: 30px;
+			background: url(/img/linea-a-mano-3px.png) center bottom no-repeat;
+			h1{
+				font: 32px/22px 'FFFTusjBold';
+				padding-bottom:10px;
+				margin: 0px;
+			}
+			h2{
+				margin: 0px;
+				font: 18px/24px 'Open Sans', sans-serif;
+			}
+		}
+		p.notapie{
+			text-align: center;
+			font: 12px/18px 'Open Sans', sans-serif;
+			a:link{
+				font-weight:bold;
+			}
+			.nota_impresa{
+				display: none;
+			}
+			.nota_web{
+				display: inline;
+			}
+		}
+		article{
+			width:780px;
+			margin: 25px 0px;
+			padding: 25px 0px;
+			@include clearfix;
+			position: relative;
+			background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+			.imagen-img{
+				position: absolute;
+				width: 370px;
+				height: 240px;
+				opacity: 0.6;
+				top: -30px;
+				left: 0px;
+			}
+			.horario{
+				@include clearfix;
+				width: 375px;
+				float: left;
+				margin-right:30px;
+				.fecha{
+					display: block;
+					font: 24px/22px 'FFFTusjBold';
+					text-align: right;
+				}
+				.hora{
+					margin-top:3px;
+					display: block;
+					font: 18px/23px 'Open Sans', sans-serif;
+					text-align: right;
+				}
+				.inscripcion{
+					position: absolute;
+					bottom: 25px;
+					display: block;
+					font: 18px/18px 'Open Sans', sans-serif;
+					text-align: right;
+					width: 375px
+				}
+			}
+			.informacion{
+				width: 375px;
+				float: left;
+				h1{
+					background: none;
+					font: 24px/22px 'FFFTusjBold';
+					text-align: left;
+					border-bottom: none;
+					margin: 0px;
+					padding: 0px 0px 0px 0px;
+				}
+				p{
+					font: 14px/23px 'Open Sans', sans-serif;
+				}
+			}
+		}
+	}
+	.piePagina{
+		width:980px;
+		height:60px;
+		background: url(/img/fondo-fin-y-repeat.png) no-repeat;
+	}
+}
+footer{
+	width:980px;
+	margin: 30px auto 50px auto;
+	text-align: center;
+	font: 12px/20px 'Open Sans', sans-serif;
+	p{
+		display: block;
+		color: #5a3817;
+		width:980px;
+		text-align: center;
+		font: 12px/23px 'Open Sans', sans-serif;
+		text-shadow: 0 1px rgba(255,255,255,0.6);
+		a:link, a:visited{
+			color: #5a3817;
+			font-weight:bold;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+
+@media print {
+	@page  { 
+		size: auto;
+		width:100%;
+		margin: 5mm 10mm 10mm 10mm;  
+	}
+	.botonesSociales, footer, .piePagina, .imprimir{
+		display: none;
+	}
+	.ocultaImprime{
+		display: none;
+	}
+	a:link:after, a:visited:after {
+	    content: "";
+	}
+	body  { 
+		width:100%;
+		@include box-sizing (border-box);
+		margin: 0mm 0mm 0mm 0mm;
+		padding: 0mm 0mm 0mm 0mm;
+		.contenedor{
+			header{
+				width:100%;
+				margin: 0mm 0mm 3mm 0mm;
+				padding: 0mm 0mm 0mm 0mm;
+				.creditos{
+					width:100%;
+					margin: 0mm 0mm 5mm 0mm;
+					padding: 0mm 0mm 0mm 0mm;
+				}
+				hgroup{
+					width:100%;
+					margin: 0mm 0mm 0mm 0mm;
+					padding: 0mm 0mm 0mm 0mm;
+					h1{
+						width:100%;
+						margin: 0mm 0mm 0mm 0mm;
+						padding: 0mm 0mm 0mm 0mm;
+					}
+					h2{
+						width:100%;
+						margin: 0mm 0mm 0mm 0mm;
+						padding: 0mm 0mm 0mm 0mm;
+					}
+				}
+			}
+			section{
+				width:100%;
+				margin: 0cm;
+				padding: 0cm;
+				hgroup{
+					margin: 0cm 0cm 0.5cm 0cm;
+					padding: 0cm 0cm 0.5cm 0cm;
+					border-bottom: 1pt dotted black;
+				}
+				article{
+					width: 100%;
+					margin: 1cm 0cm 0.75cm 0cm;
+					padding: 0cm 0cm 0.5cm 0cm;
+					border-bottom: 1pt dotted silver;
+					.imagen-img{
+						height:5cm;
+						padding: 0.2cm 0cm 0cm 1cm;
+						width: 7.5cm;
+					}
+					.horario{
+						@include box-sizing (border-box);
+						margin: 0cm;
+						padding: 0cm;
+						width:50%;
+						padding-right: 1cm;
+						.inscripcion{
+							@include box-sizing (border-box);
+							margin: 0cm;
+							padding: 0cm;
+							width:50%;
+							padding-right: 1cm;
+						}
+					}
+					.informacion{
+						margin: 0cm;
+						padding: 0cm;
+						width:50%;
+					}
+				}
+				.notapie{
+					font: 16px/22px 'Open Sans', sans-serif;
+					.nota_web{
+						display: none;
+					}
+					.nota_impresa{
+						display: inline;
+					}
+				}
+			}
+		}	
+	}
+}

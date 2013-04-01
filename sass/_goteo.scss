@@ -1,0 +1,54 @@
+.horizontal-line{
+	margin: 25px 0px;
+	height:30px;
+	background: url(/img/linea-a-mano-1px.png) center bottom no-repeat;
+}
+.goteo{
+	width:780px;
+	padding-top: 40px;
+	padding-top: 20px;
+	@include clearfix;
+	position: relative;
+	margin: 40px 90px 20px 110px;
+	.goteo-texto{
+		@include clearfix;
+		width: 498px;
+		float: left;
+		margin-right:30px;
+		h1{
+			background: none;
+			font: 2em/1.2em 'FFFTusjBold';
+			text-align: left;
+			border-bottom: none;
+			padding: 0px 0px 0px 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		h2{
+			font: 18px/18px "Open Sans",sans-serif;
+			text-align: center;
+			padding: 0px 0px 0px 0px;
+			margin: 15px 0px 25px 0px;
+		}
+		p{
+			font: 14px/23px 'Open Sans', sans-serif;
+			padding-bottom: 0px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+	}
+	.goteo-frame{
+		width: 250px;
+		margin-top: 34px;
+		float: left;
+		border: 1px solid silver;
+		margin-bottom: 35px;
+	}
+	.nota{
+		display: block;
+		clear: left;
+		
+		text-align: center;
+		font: 12px/18px "Open Sans",sans-serif;
+	}
+}

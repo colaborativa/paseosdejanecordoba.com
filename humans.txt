@@ -1,8 +1,16 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+# humanstxt.org/
+# The humans responsible & technology colophon
 
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+# TEAM
+	Javier Burón -- diseño, programación e ilustraciones -- @javiburon
+	Magda Sánchez -- contenidos -- @msanchezmora
+	Francisco Carmona -- contenidos -- @tercerapiel
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Jekyll
+    jQuery, Modernizr
