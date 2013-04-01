@@ -1,6 +1,9 @@
 ---
-
-
+ titulo: Los Paseos de Jane en Córdoba. Sábado 4 y Domingo 5 de Mayo
+ web: http://paseosdejanecordoba.com
+ descripcion: 
+ autor: Colaborativa.eu y A Pata
+ imagen: 
 ---
 
 <html prefix="og: http://ogp.me/ns#">
@@ -8,21 +11,33 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>{{ page.title }}</title>
-	<meta name="description" content="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}" />
 	<meta name="viewport" content="width=device-width" />
-	<meta content='#UrbanismoDeBarrio' property='og:site_name'/>
-	<meta content='http://urbanismodebarrio.com' property='og:url'/>
-	<meta content='{{ page.title }}' property='og:title'/>
-	<meta content='{{ page.subtitulo | strip_html }}. {{ page.descripcion }}' property='og:description'/>
-	<meta content='Colaborativa y Tercera Piel' property='og:author'/>
-	<meta content='http://urbanismodebarrio.com/img/facebook-thumbnail.jpg' property='og:image'/>
-	<link rel="shortcut icon" href="http://urbanismodebarrio.com/favicon.ico" rel="icon" type="image/x-icon" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 	<link rel="author" href="humans.txt" />
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/estilo.css" />
 	<script src="js/vendor/modernizr-2.6.1.min.js"></script>
+
+	<!-- Socialmeta tags -->
+	<meta name="Description" content="{{page.descripcion}}" />
+	<!-- Schema http://schema.org/docs/gs.html description max 200char images 180x120px -->
+	<meta itemprop="name" content="{{page.titulo}}" />
+	<meta itemprop="description" content="{{page.descripcion}}" />
+	<meta itemprop="author" content="{{page.autor}}" />
+	<meta itemprop="url" content="{{page.web}}" />
+	<meta itemprop="image" content="{{page.imagen}}" />
+	<!-- OpenGraph http://ogp.me description max 150char images 160x160px-->
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="{{page.imagen}}" />
+	<meta property="og:url" content="{{page.web}}" />
+	<meta property="og:title" content="{{page.titulo}}" />
+	<meta property="og:description" content="{{page.descripcion}}" />
+	<!-- TwitterCard https://dev.twitter.com/docs/cards description max 200char images 120x120px-->
+	<meta name="twitter:site" content="{{page.web}}">
+	<meta name="twitter:creator:id" content="140018392">
+	<meta name="twitter:description" content="{{page.descripcion}}" />
+	<!-- GooglePlus-->
+	<link href="https://plus.google.com/114949886506494087353" rel="publisher" />
 </head>
 	<body>
 		<!--[if lt IE 7]>
@@ -30,26 +45,26 @@
 		<![endif]-->
 		<div class="imprimir" id="imprimir">
 			<p>
-				<span class="icon-print"></span><span class="print"><a href="http://goteo.org/project/huerto-fuensanta">Somos una actividad cultural independiente por eso Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el poster</a></span>
+				<span class="icon-print"></span><span class="print"><a href="poster.pdf">Somos una actividad cultural independiente por eso Necesitamos tu ayuda para difundir la actividad, haz click para imprimir el poster</a></span>
 			</p>
 		</div>
 		<div class="contenedor">
 			<header>
 				<hgroup>
-					<h1>{{ page.title }}</h1>
-					<h2>{{ page.subtitulo }}</h2>
+					<h1>Los Paseos de Jane en Córdoba</h1>
+					<h2>¡Sal a pasear por Córdoba el 4 y 5 de Mayo!</h2>
 				</hgroup>
 				<p>Queremos ayudar a recuperar el solar del antiguo Cine Fuensanta desde la participación vecinal y el debate. A través de diferentes actividades mostraremos alternativas para iniciar su recuperación ¡Te esperamos!</p>
 				<div class="botonesSociales">
 					<div id="example1">
-					  <div id="twitter" data-url="http://urbanismodebarrio.com/" data-text="{{ page.subtitulo | strip_html }}. {{ page.descripcion_corta }}" data-title="t"></div>
-					  <div id="facebook" data-url="http://urbanismodebarrio.com/" data-text="{{ page.subtitulo | strip_html }}. {{ page.descripcion }}" data-title="f"></div>
+					  <div id="twitter" data-url="{{page.web}}" data-text="{{page.descripcion}}" data-title="t"></div>
+					  <div id="facebook" data-url="{{page.web}}" data-text="{{page.descripcion}}" data-title="f"></div>
 				</div>
 			</header>
 			<section>
 				<hgroup>
-					<h1>Programación</h1>
-					<h2>{{ page.nota_inicial}}</h2>
+					<h1>Abierta convocatorio de guías</h1>
+					<h2>¡Todos tenemos un paseo que merece la pena contar!</h2>
 				</hgroup>
 				<p class="notapie">
 					<span class="nota_web">Para más información y reservar tu plaza visita <a href='#'>www.urbanismodebarrio.com</a></span>

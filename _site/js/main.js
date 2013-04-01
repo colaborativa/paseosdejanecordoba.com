@@ -21,11 +21,8 @@ $('#facebook').sharrre({
     api.openPopup('facebook');
   }
 });
-twttr.anywhere(function (T) {
-	T.hovercards();
-});
 $(document).ready(function(){
-	$("#imprimir").delay(1000).addClass('ensena');
+	$("#imprimir").delay(500).addClass('ensena');
 	//Simple spam protection
 	$('#my-email').html(function(){
 		var e = "mas";
