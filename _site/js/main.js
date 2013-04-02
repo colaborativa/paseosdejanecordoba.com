@@ -33,21 +33,5 @@ $(document).ready(function(){
 		$(this).parent('a').attr('href', h);
 		return e + a + d + c;
 	});
-	// track external links
-	// Outbound Link Tracking with Google Analytics
-	// Requires jQuery 1.7 or higher (use .live if using a lower version)
-	$("a").on('click',function(e){
-	    var url = $(this).attr("href");
-	    if (e.currentTarget.host != window.location.host) {
-	        _gaq.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
-	        if (e.metaKey || e.ctrlKey) {
-	             var newtab = true;
-	        }
-	        if (!newtab) {
-	             e.preventDefault();
-	             setTimeout('document.location = "' + url + '"', 100);
-	        }
-	    }
-	});
 });
 

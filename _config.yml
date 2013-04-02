@@ -1,1 +1,2 @@
+auto: true
 exclude: [ "sass", "CNAME", "config.rb", "LICENSE", "_assets", "Gemfile", "Gemfile.lock", "rakefile" ]

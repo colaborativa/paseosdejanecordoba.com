@@ -1,1 +1,502 @@
-@font-face{font-family:'WebSymbolsRegular';src:url("../fonts/websymbols-regular-webfont.eot");src:url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/websymbols-regular-webfont.woff") format("woff"),url("../fonts/websymbols-regular-webfont.ttf") format("truetype"),url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'FFFTusjBold';src:url("../fonts/FFF_Tusj-webfont.eot");src:url("../fonts/FFF_Tusj-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/FFF_Tusj-webfont.woff") format("woff"),url("../fonts/FFF_Tusj-webfont.ttf") format("truetype"),url("../fonts/FFF_Tusj-webfont.svg#FFFTusjBold") format("svg");font-weight:normal;font-style:normal}.botonesSociales{height:82px;margin:25px 0px 20px 0px}.botonesSociales #example1{display:table;margin:0px auto}.botonesSociales #example1 .sharrre{margin:0px 15px 0 15px;float:left}.botonesSociales #example1 .sharrre .box a:hover{text-decoration:none}.botonesSociales #example1 .sharrre .count{color:#000;display:block;font:14px/30px "Open Sans",sans-serif;height:30px;position:relative;text-align:center;width:50px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:1px solid #b2b2b2;background:none}.botonesSociales #example1 .sharrre .count.count:before,.botonesSociales #example1 .sharrre .count.count:after{content:'';display:block;position:absolute;left:49%;width:0;height:0}.botonesSociales #example1 .sharrre .count.count:before{border:solid 7px transparent;border-top-color:#b2b2b2;margin-left:-7px;bottom:-14px}.botonesSociales #example1 .sharrre .count.count:after{border:solid 6px transparent;margin-left:-6px;bottom:-12px;border-top-color:white}.botonesSociales #example1 .sharrre .share{display:block;font-size:20px;font-weight:bold;height:40px;line-height:40px;margin:8px 5px 0px 5px;text-align:center;text-decoration:none;width:40px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}#twitter .share{color:white;font-family:"WebSymbolsRegular";background:#000}#facebook .share{color:white;background:#000}.horizontal-line{margin:25px 0px;height:30px;background:url(/img/linea-a-mano-1px.png) center bottom no-repeat}.goteo{width:780px;padding-top:40px;padding-top:20px;overflow:hidden;*zoom:1;position:relative;margin:40px 90px 20px 110px}.goteo .goteo-texto{overflow:hidden;*zoom:1;width:498px;float:left;margin-right:30px}.goteo .goteo-texto h1{background:none;font:2em/1.2em "FFFTusjBold";text-align:left;border-bottom:none;padding:0px 0px 0px 0px;margin-bottom:0px;text-align:center}.goteo .goteo-texto h2{font:18px/18px "Open Sans",sans-serif;text-align:center;padding:0px 0px 0px 0px;margin:15px 0px 25px 0px}.goteo .goteo-texto p{font:14px/23px "Open Sans",sans-serif;padding-bottom:0px;margin-bottom:10px;text-align:center}.goteo .goteo-frame{width:250px;margin-top:34px;float:left;border:1px solid silver;margin-bottom:35px}.goteo .nota{display:block;clear:left;text-align:center;font:12px/18px "Open Sans",sans-serif}body{background-image:url("/img/purty_wood.jpg")}a:link,a:visited,a:hover{text-decoration:none;color:#000}.imprimir{top:-35px;-webkit-transition:top 0.5s ease-in-out 2s;-moz-transition:top 0.5s ease-in-out 2s;-ms-transition:top 0.5s ease-in-out 2s;-o-transition:top 0.5s ease-in-out 2s;transition:top 0.5s ease-in-out 2s;z-index:1000;position:fixed;width:100%;height:35px;background:#FAF7F7;border-top:1px solid silver;box-shadow:inset 0 1px #fff,0 1px 3px rgba(34,25,25,0.4)}.imprimir.ensena{top:0px}.imprimir p{display:block;position:relative;width:980px;padding:0px;margin:0px auto;text-align:center;line-height:35px;font:14px/35px "Open Sans",sans-serif;color:#221919;text-shadow:0 1px #fff}.imprimir p .icon-print{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;width:35px;height:35px;line-height:35px;vertical-align:middle;background-image:url(/img/printer.png);background-repeat:no-repeat;background-size:17px 17px;background-position:8px 8px;margin:0px;padding:5px 5px 5px 5px}.imprimir p .print{padding:0px;margin:0px}.imprimir p .print a:hover{text-decoration:underline}.highlight{left:-3px;background-image:url(/img/highlight.png);background-repeat:no-repeat;background-size:150%;background-position:0px 0px;margin-left:-5px;padding-right:5px;padding-left:5px;width:105%;line-height:200%;overflow:visible;height:32px;-webkit-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-ms-transition:all 0.1s linear;-o-transition:all 0.1s linear;transition:all 0.1s linear}.highlight:hover{opacity:0.8}.contenedor{width:980px;margin:50px auto 50px auto;background:url(/img/fondo-y-repeat.png);-webkit-box-shadow:rgba(0,0,0,0.75) 0px 0px 5px;-moz-box-shadow:rgba(0,0,0,0.75) 0px 0px 5px;box-shadow:rgba(0,0,0,0.75) 0px 0px 5px;position:relative}.contenedor header{overflow:hidden;*zoom:1;width:780px;margin:20px 90px 20px 110px;background:url(/img/linea-a-mano-1px.png) center top no-repeat}.contenedor header .creditos{width:780px;margin-top:30px}.contenedor header .creditos p{font:12px/20px "Open Sans",sans-serif;margin:0px;padding:0px;margin-bottom:10px}.contenedor header .creditos p a:link{-webkit-transition:text-decoration 0.1s linear;-moz-transition:text-decoration 0.1s linear;-ms-transition:text-decoration 0.1s linear;-o-transition:text-decoration 0.1s linear;transition:text-decoration 0.1s linear;font-weight:bold}.contenedor header .creditos p a:hover{text-decoration:underline}.contenedor header hgroup{margin-top:50px;text-align:center}.contenedor header hgroup h1{font:64px 'FFFTusjBold';margin:0px 0px}.contenedor header hgroup h2{margin:0px 0px;font:32px/22px "FFFTusjBold"}.contenedor header p{margin:5px 0px 35px 0px;display:block;font:18px/28px "Open Sans",sans-serif;text-align:center}.contenedor section{overflow:hidden;*zoom:1;width:780px;margin:20px 90px 20px 110px}.contenedor section hgroup{text-align:center;margin:0px;padding-bottom:30px;background:url(/img/linea-a-mano-3px.png) center bottom no-repeat}.contenedor section hgroup h1{font:32px/22px "FFFTusjBold";padding-bottom:10px;margin:0px}.contenedor section hgroup h2{margin:0px;font:18px/24px "Open Sans",sans-serif}.contenedor section p.notapie{text-align:center;font:12px/18px "Open Sans",sans-serif}.contenedor section p.notapie a:link{font-weight:bold}.contenedor section p.notapie .nota_impresa{display:none}.contenedor section p.notapie .nota_web{display:inline}.contenedor section article{width:780px;margin:25px 0px;padding:25px 0px;overflow:hidden;*zoom:1;position:relative;background:url(/img/linea-a-mano-1px.png) center bottom no-repeat}.contenedor section article .imagen-img{position:absolute;width:370px;height:240px;opacity:0.6;top:-30px;left:0px}.contenedor section article .horario{overflow:hidden;*zoom:1;width:375px;float:left;margin-right:30px}.contenedor section article .horario .fecha{display:block;font:24px/22px "FFFTusjBold";text-align:right}.contenedor section article .horario .hora{margin-top:3px;display:block;font:18px/23px "Open Sans",sans-serif;text-align:right}.contenedor section article .horario .inscripcion{position:absolute;bottom:25px;display:block;font:18px/18px "Open Sans",sans-serif;text-align:right;width:375px}.contenedor section article .informacion{width:375px;float:left}.contenedor section article .informacion h1{background:none;font:24px/22px "FFFTusjBold";text-align:left;border-bottom:none;margin:0px;padding:0px 0px 0px 0px}.contenedor section article .informacion p{font:14px/23px "Open Sans",sans-serif}.contenedor .piePagina{width:980px;height:60px;background:url(/img/fondo-fin-y-repeat.png) no-repeat}footer{width:980px;margin:30px auto 50px auto;text-align:center;font:12px/20px "Open Sans",sans-serif}footer p{display:block;color:#5a3817;width:980px;text-align:center;font:12px/23px "Open Sans",sans-serif;text-shadow:0 1px rgba(255,255,255,0.6)}footer p a:link,footer p a:visited{color:#5a3817;font-weight:bold}footer p a:hover{text-decoration:underline}@media print{@page{size:auto;width:100%;margin:5mm 10mm 10mm 10mm}.botonesSociales,footer,.piePagina,.imprimir{display:none}.ocultaImprime{display:none}a:link:after,a:visited:after{content:""}body{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0mm 0mm 0mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor header{width:100%;margin:0mm 0mm 3mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor header .creditos{width:100%;margin:0mm 0mm 5mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor header hgroup{width:100%;margin:0mm 0mm 0mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor header hgroup h1{width:100%;margin:0mm 0mm 0mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor header hgroup h2{width:100%;margin:0mm 0mm 0mm 0mm;padding:0mm 0mm 0mm 0mm}body .contenedor section{width:100%;margin:0cm;padding:0cm}body .contenedor section hgroup{margin:0cm 0cm 0.5cm 0cm;padding:0cm 0cm 0.5cm 0cm;border-bottom:1pt dotted black}body .contenedor section article{width:100%;margin:1cm 0cm 0.75cm 0cm;padding:0cm 0cm 0.5cm 0cm;border-bottom:1pt dotted silver}body .contenedor section article .imagen-img{height:5cm;padding:0.2cm 0cm 0cm 1cm;width:7.5cm}body .contenedor section article .horario{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0cm;padding:0cm;width:50%;padding-right:1cm}body .contenedor section article .horario .inscripcion{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0cm;padding:0cm;width:50%;padding-right:1cm}body .contenedor section article .informacion{margin:0cm;padding:0cm;width:50%}body .contenedor section .notapie{font:16px/22px "Open Sans",sans-serif}body .contenedor section .notapie .nota_web{display:none}body .contenedor section .notapie .nota_impresa{display:inline}}
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("../fonts/websymbols-regular-webfont.eot");
+  src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/websymbols-regular-webfont.woff") format("woff"), url("../fonts/websymbols-regular-webfont.ttf") format("truetype"), url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FFFTusjBold';
+  src: url("../fonts/FFF_Tusj-webfont.eot");
+  src: url("../fonts/FFF_Tusj-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FFF_Tusj-webfont.woff") format("woff"), url("../fonts/FFF_Tusj-webfont.ttf") format("truetype"), url("../fonts/FFF_Tusj-webfont.svg#FFFTusjBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../sass/sharrre.scss */
+.botonesSociales {
+  height: 82px;
+  margin: 25px 0px 20px 0px;
+}
+/* line 4, ../sass/sharrre.scss */
+.botonesSociales #example1 {
+  display: table;
+  margin: 0px auto;
+}
+/* line 7, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre {
+  margin: 0px 15px 0 15px;
+  float: left;
+}
+/* line 10, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .box a:hover {
+  text-decoration: none;
+}
+/* line 13, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count {
+  color: #000;
+  display: block;
+  font: 14px/30px "Open Sans", sans-serif;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  width: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #b2b2b2;
+  background: white;
+}
+/* line 26, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:before, .botonesSociales #example1 .sharrre .count.count:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 49%;
+  width: 0;
+  height: 0;
+}
+/* line 34, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:before {
+  border: solid 7px transparent;
+  border-top-color: #b2b2b2;
+  margin-left: -7px;
+  bottom: -14px;
+}
+/* line 40, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .count.count:after {
+  border: solid 6px transparent;
+  margin-left: -6px;
+  bottom: -12px;
+  border-top-color: white;
+}
+/* line 47, ../sass/sharrre.scss */
+.botonesSociales #example1 .sharrre .share {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  margin: 8px 5px 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 66, ../sass/sharrre.scss */
+#twitter .share {
+  color: white;
+  font-family: "WebSymbolsRegular";
+  background: #000;
+  /* Old browsers */
+}
+
+/* line 71, ../sass/sharrre.scss */
+#facebook .share {
+  color: white;
+  font-family: "Open Sans";
+  background: #000;
+  /* Old browsers */
+}
+
+/* line 8, ../sass/estilo.scss */
+[data-retina=complete] {
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+/* line 18, ../sass/estilo.scss */
+.oculto {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* estilo para el fondo de la web
+*/
+/* line 24, ../sass/estilo.scss */
+#fondo {
+  min-width: 980px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px%;
+  top: 0px;
+}
+/* line 39, ../sass/estilo.scss */
+#fondo .capaFondo {
+  width: 1500px;
+  height: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -750px;
+  z-index: 0;
+}
+/* line 48, ../sass/estilo.scss */
+#fondo #base {
+  background: url("/img/base.png") top center no-repeat;
+  z-index: -250;
+}
+/* line 52, ../sass/estilo.scss */
+#fondo #lineasBlancas {
+  background: url("/img/lineasBlancas.png") top center no-repeat;
+  z-index: -50;
+}
+/* line 56, ../sass/estilo.scss */
+#fondo #lineasColores {
+  background: url("/img/lineasColores.png") top center no-repeat;
+  z-index: -200;
+}
+/* line 60, ../sass/estilo.scss */
+#fondo #logo {
+  background: url("/img/logo.png") top center no-repeat;
+  z-index: -25;
+}
+
+/* estilo para el banner superior
+*/
+/* line 68, ../sass/estilo.scss */
+.imprimir {
+  top: -35px;
+  -webkit-transition: top 0.5s ease-in-out 2s;
+  -moz-transition: top 0.5s ease-in-out 2s;
+  -ms-transition: top 0.5s ease-in-out 2s;
+  -o-transition: top 0.5s ease-in-out 2s;
+  transition: top 0.5s ease-in-out 2s;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  background: #FAFAFA;
+  border-top: 1px solid silver;
+  box-shadow: inset 0 1px white, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+/* line 69, ../sass/estilo.scss */
+.imprimir.ensena {
+  top: 0px;
+}
+/* line 81, ../sass/estilo.scss */
+.imprimir p {
+  display: block;
+  position: relative;
+  width: 980px;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 35px;
+  font: 14px/35px "Open Sans", sans-serif;
+  color: #221919;
+  text-shadow: 0 1px white;
+}
+/* line 92, ../sass/estilo.scss */
+.imprimir p .icon-print {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  background-image: url(/img/printer.png);
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  background-position: 8px 8px;
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+}
+/* line 106, ../sass/estilo.scss */
+.imprimir p .print {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 109, ../sass/estilo.scss */
+.imprimir p .print a:hover {
+  text-decoration: underline;
+}
+
+/* line 117, ../sass/estilo.scss */
+body {
+  margin: 0px;
+}
+
+/* line 120, ../sass/estilo.scss */
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 125, ../sass/estilo.scss */
+.contenedor {
+  overflow: hidden;
+  *zoom: 1;
+  width: 980px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 2em;
+}
+/* line 58, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+.contenedor body {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+/* line 62, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+.contenedor html > body {
+  font-size: 16px;
+}
+/* line 134, ../sass/estilo.scss */
+.contenedor header {
+  height: 270px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 137, ../sass/estilo.scss */
+.contenedor header hgroup {
+  text-align: center;
+}
+/* line 139, ../sass/estilo.scss */
+.contenedor header hgroup h1 {
+  font-family: 'RobotoSlab-Light';
+  margin-top: 0.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  font-size: 3.438em;
+  line-height: 1.309em;
+  font-weight: normal;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 148, ../sass/estilo.scss */
+.contenedor section {
+  color: #4A4B4F;
+  padding-left: 180px;
+  padding-right: 180px;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 2.5em;
+}
+/* line 153, ../sass/estilo.scss */
+.contenedor section h2 {
+  font-family: 'RobotoSlab-Regular';
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-weight: normal;
+}
+/* line 159, ../sass/estilo.scss */
+.contenedor section p {
+  font-family: 'Open Sans';
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+
+/* line 169, ../sass/estilo.scss */
+#pie {
+  border-style: solid;
+  border-width: 3px 0px 0px;
+  -moz-border-image: url(/img/dashLine.png) 53 0 0 repeat;
+  -webkit-border-image: url(/img/dashLine.png) 53 0 0 repeat;
+  -o-border-image: url(/img/dashLine.png) 53 0 0 repeat;
+  border-image: url(/img/dashLine.png) 53 0 0 fill repeat;
+  min-width: 980px;
+}
+/* line 177, ../sass/estilo.scss */
+#pie #fondoPie {
+  width: 100%;
+  background-color: #F7921E;
+  position: absolute;
+  z-index: -100;
+  height: 260px;
+}
+/* line 184, ../sass/estilo.scss */
+#pie footer {
+  position: relative;
+  z-index: 100;
+  color: white;
+  width: 620px;
+  margin: 0px auto 0px auto;
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-top: 0em;
+  padding-top: 2em;
+  padding-bottom: 6em;
+  margin-bottom: 0em;
+}
+/* line 193, ../sass/estilo.scss */
+#pie footer p {
+  font-family: 'Open Sans';
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+/* line 199, ../sass/estilo.scss */
+#pie footer p a:link, #pie footer p a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 204, ../sass/estilo.scss */
+#pie footer p a:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  @page {
+    size: auto;
+    width: 100%;
+    margin: 5mm 10mm 10mm 10mm;
+}
+
+  /* line 219, ../sass/estilo.scss */
+  .botonesSociales, footer, .piePagina, .imprimir {
+    display: none;
+  }
+
+  /* line 222, ../sass/estilo.scss */
+  .ocultaImprime {
+    display: none;
+  }
+
+  /* line 225, ../sass/estilo.scss */
+  a:link:after, a:visited:after {
+    content: "";
+  }
+
+  /* line 228, ../sass/estilo.scss */
+  body {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 234, ../sass/estilo.scss */
+  body .contenedor header {
+    width: 100%;
+    margin: 0mm 0mm 3mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 238, ../sass/estilo.scss */
+  body .contenedor header .creditos {
+    width: 100%;
+    margin: 0mm 0mm 5mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 243, ../sass/estilo.scss */
+  body .contenedor header hgroup {
+    width: 100%;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 247, ../sass/estilo.scss */
+  body .contenedor header hgroup h1 {
+    width: 100%;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 252, ../sass/estilo.scss */
+  body .contenedor header hgroup h2 {
+    width: 100%;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  /* line 259, ../sass/estilo.scss */
+  body .contenedor section {
+    width: 100%;
+    margin: 0cm;
+    padding: 0cm;
+  }
+  /* line 263, ../sass/estilo.scss */
+  body .contenedor section hgroup {
+    margin: 0cm 0cm 0.5cm 0cm;
+    padding: 0cm 0cm 0.5cm 0cm;
+    border-bottom: 1pt dotted black;
+  }
+  /* line 268, ../sass/estilo.scss */
+  body .contenedor section article {
+    width: 100%;
+    margin: 1cm 0cm 0.75cm 0cm;
+    padding: 0cm 0cm 0.5cm 0cm;
+    border-bottom: 1pt dotted silver;
+  }
+  /* line 273, ../sass/estilo.scss */
+  body .contenedor section article .imagen-img {
+    height: 5cm;
+    padding: 0.2cm 0cm 0cm 1cm;
+    width: 7.5cm;
+  }
+  /* line 278, ../sass/estilo.scss */
+  body .contenedor section article .horario {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0cm;
+    padding: 0cm;
+    width: 50%;
+    padding-right: 1cm;
+  }
+  /* line 284, ../sass/estilo.scss */
+  body .contenedor section article .horario .inscripcion {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0cm;
+    padding: 0cm;
+    width: 50%;
+    padding-right: 1cm;
+  }
+  /* line 292, ../sass/estilo.scss */
+  body .contenedor section article .informacion {
+    margin: 0cm;
+    padding: 0cm;
+    width: 50%;
+  }
+  /* line 298, ../sass/estilo.scss */
+  body .contenedor section .notapie {
+    font: 16px/22px "Open Sans", sans-serif;
+  }
+  /* line 300, ../sass/estilo.scss */
+  body .contenedor section .notapie .nota_web {
+    display: none;
+  }
+  /* line 303, ../sass/estilo.scss */
+  body .contenedor section .notapie .nota_impresa {
+    display: inline;
+  }
+}
