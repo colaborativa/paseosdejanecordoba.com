@@ -21,6 +21,24 @@ $('#facebook').sharrre({
     api.openPopup('facebook');
   }
 });
+$('#shareme').sharrre({
+  share: {
+    facebook: true,
+    twitter: true,
+  },
+  enableTracking: true,
+  buttons: {
+    facebook: {layout: 'button_count'},
+    twitter: {count: 'horizontal'},
+  },
+
+  hover: function(api, options){
+    $(api.element).find('.buttons').show();
+  },
+  hide: function(api, options){
+    $(api.element).find('.buttons').hide();
+  }
+});
 $(document).ready(function(){
 	$("#imprimir").delay(500).addClass('ensena');
 	//Simple spam protection

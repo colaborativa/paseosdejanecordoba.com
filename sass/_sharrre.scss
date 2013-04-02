@@ -1,75 +1,140 @@
+
+/*
 .botonesSociales{
 	height:82px;
 	margin: 25px 0px 20px 0px;
 	#example1{
 		display: table;
 		margin: 0px auto;
-		.sharrre{
-			margin:0px 15px 0 15px;
-			float:left;
-			.box a:hover{
-				text-decoration:none;
-			}
-			.count {
-				color:#000;
-				display:block;
-				font: 14px/30px 'Open Sans', sans-serif;
-				height:30px;
-				position:relative;
-				text-align:center;
-				width:50px;
-				-webkit-border-radius:4px;
-				-moz-border-radius:4px;
-				border-radius:4px;
-				border:1px solid #b2b2b2;
-				background: white;
-				&.count:before, &.count:after {
-					content:'';
-					display:block;
-					position:absolute;
-					left:49%;
-					width:0;
-					height:0;
-				}
-				&.count:before {
-					border:solid 7px transparent;
-					border-top-color:#b2b2b2;
-					margin-left:-7px;
-					bottom: -14px;
-				}
-				&.count:after {
-					border:solid 6px transparent;
-					margin-left:-6px;
-					bottom:-12px;
-					border-top-color: white;
-				}
-			}
-			.share {
-				display:block;
-				font-size:20px;
-				font-weight:bold;
-				height:40px;
-				line-height:40px;
-				margin:8px 5px 0px 5px;
-				text-align:center;
-				text-decoration:none;
-				width:40px;
-				-webkit-border-radius:20px;
-				-moz-border-radius:20px;
-				border-radius:20px; 
-			}
-		}
 	}
 }
-
-
+.sharrre{
+	margin:0px 15px 0 15px;
+	float:left;
+	.box a:hover{
+		text-decoration:none;
+	}
+	.count {
+		color:#000;
+		display:block;
+		font: 14px/30px 'Open Sans', sans-serif;
+		height:30px;
+		position:relative;
+		text-align:center;
+		width:50px;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		border:1px solid #b2b2b2;
+		background: white;
+		&.count:before, &.count:after {
+			content:'';
+			display:block;
+			position:absolute;
+			left:49%;
+			width:0;
+			height:0;
+		}
+		&.count:before {
+			border:solid 7px transparent;
+			border-top-color:#b2b2b2;
+			margin-left:-7px;
+			bottom: -14px;
+		}
+		&.count:after {
+			border:solid 6px transparent;
+			margin-left:-6px;
+			bottom:-12px;
+			border-top-color: white;
+		}
+	}
+	.share {
+		color: #F7921E;
+		display:block;
+		font-size:20px;
+		font-weight:bold;
+		height:40px;
+		line-height:40px;
+		margin:8px 5px 0px 5px;
+		text-align:center;
+		text-decoration:none;
+		width:40px;
+		-webkit-border-radius:20px;
+		-moz-border-radius:20px;
+		border-radius:20px; 
+	}
+}
 #twitter .share {
 	color: white;
 	font-family: "WebSymbolsRegular";
-	background: #000; /* Old browsers */
+	background: #000; 
 }
 #facebook .share {
 	color: white;
 	font-family: "Open Sans";
-	background: #000; /* Old browsers */
+	background: #000;
+}
+*/
+
+
+
+
+#example3{
+width: 150px;
+height: 40px;
+position: absolute;
+top: 125px;
+left: 50%;
+margin-left: 330px;
+z-index:1000;
+}
+#shareme .box{
+  width: 150px;
+}
+#shareme .box a{
+  color:#404040;
+}
+
+#shareme .box {
+	a:link, a:visited, a:active, {
+		 text-decoration:none;
+	}
+}
+
+#shareme .count {
+	color: #4A4B4F;
+  font-family:'roboto_slablight';
+  font-size:53px;
+  float:left;
+  border-right:2px solid #F7921E;
+  line-height:40px;
+  padding-right:15px
+}
+#shareme .share {
+	font-family:'Open Sans';
+  font-size:18px;
+  line-height: 22px;
+  float:left;
+  margin-top: -3px;
+  margin-left:15px;
+  width:82px;
+}
+#shareme .buttons {
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+  position: absolute;
+  width: 150px;
+  right: 0px;
+  top: -25px;
+  background-color:#fff;
+  border: 1px solid rgba(0,0,0,.2);
+  padding:10px 20px;
+  -webkit-box-shadow: 0 0px 4px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 0px 4px rgba(0,0,0,.2);
+  box-shadow: 0 0px 4px rgba(0,0,0,.2);
+}
+#shareme .button {
+  max-width:50px;
+  margin:10px 10px 10px 10px;
 }

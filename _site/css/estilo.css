@@ -14,93 +14,159 @@
   font-style: normal;
 }
 
-/* line 1, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales {
-  height: 82px;
-  margin: 25px 0px 20px 0px;
+@font-face {
+  font-family: 'roboto_slablight';
+  src: url("../fonts/robotoslab-light-webfont.eot");
+  src: url("../fonts/robotoslab-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/robotoslab-light-webfont.woff") format("woff"), url("../fonts/robotoslab-light-webfont.ttf") format("truetype"), url("../fonts/robotoslab-light-webfont.svg#roboto_slablight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-/* line 4, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 {
-  display: table;
-  margin: 0px auto;
+
+/*
+.botonesSociales{
+	height:82px;
+	margin: 25px 0px 20px 0px;
+	#example1{
+		display: table;
+		margin: 0px auto;
+	}
 }
-/* line 7, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre {
-  margin: 0px 15px 0 15px;
-  float: left;
+.sharrre{
+	margin:0px 15px 0 15px;
+	float:left;
+	.box a:hover{
+		text-decoration:none;
+	}
+	.count {
+		color:#000;
+		display:block;
+		font: 14px/30px 'Open Sans', sans-serif;
+		height:30px;
+		position:relative;
+		text-align:center;
+		width:50px;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		border:1px solid #b2b2b2;
+		background: white;
+		&.count:before, &.count:after {
+			content:'';
+			display:block;
+			position:absolute;
+			left:49%;
+			width:0;
+			height:0;
+		}
+		&.count:before {
+			border:solid 7px transparent;
+			border-top-color:#b2b2b2;
+			margin-left:-7px;
+			bottom: -14px;
+		}
+		&.count:after {
+			border:solid 6px transparent;
+			margin-left:-6px;
+			bottom:-12px;
+			border-top-color: white;
+		}
+	}
+	.share {
+		color: #F7921E;
+		display:block;
+		font-size:20px;
+		font-weight:bold;
+		height:40px;
+		line-height:40px;
+		margin:8px 5px 0px 5px;
+		text-align:center;
+		text-decoration:none;
+		width:40px;
+		-webkit-border-radius:20px;
+		-moz-border-radius:20px;
+		border-radius:20px; 
+	}
 }
-/* line 10, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .box a:hover {
+#twitter .share {
+	color: white;
+	font-family: "WebSymbolsRegular";
+	background: #000; 
+}
+#facebook .share {
+	color: white;
+	font-family: "Open Sans";
+	background: #000;
+}
+*/
+/* line 82, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#example3 {
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  margin-left: 330px;
+  z-index: 1000;
+}
+
+/* line 91, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .box {
+  width: 150px;
+}
+
+/* line 94, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .box a {
+  color: #404040;
+}
+
+/* line 99, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .box a:link, #shareme .box a:visited, #shareme .box a:active {
   text-decoration: none;
 }
-/* line 13, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .count {
-  color: #000;
-  display: block;
-  font: 14px/30px "Open Sans", sans-serif;
-  height: 30px;
-  position: relative;
-  text-align: center;
-  width: 50px;
+
+/* line 104, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .count {
+  color: #4A4B4F;
+  font-family: 'roboto_slablight';
+  font-size: 53px;
+  float: left;
+  border-right: 2px solid #F7921E;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+/* line 113, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .share {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 22px;
+  float: left;
+  margin-top: -3px;
+  margin-left: 15px;
+  width: 82px;
+}
+
+/* line 122, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .buttons {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  border: 1px solid #b2b2b2;
-  background: white;
-}
-/* line 26, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .count.count:before, .botonesSociales #example1 .sharrre .count.count:after {
-  content: '';
-  display: block;
   position: absolute;
-  left: 49%;
-  width: 0;
-  height: 0;
-}
-/* line 34, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .count.count:before {
-  border: solid 7px transparent;
-  border-top-color: #b2b2b2;
-  margin-left: -7px;
-  bottom: -14px;
-}
-/* line 40, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .count.count:after {
-  border: solid 6px transparent;
-  margin-left: -6px;
-  bottom: -12px;
-  border-top-color: white;
-}
-/* line 47, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-.botonesSociales #example1 .sharrre .share {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  height: 40px;
-  line-height: 40px;
-  margin: 8px 5px 0px 5px;
-  text-align: center;
-  text-decoration: none;
-  width: 40px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  width: 150px;
+  right: 0px;
+  top: -25px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  -webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 66, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-#twitter .share {
-  color: white;
-  font-family: "WebSymbolsRegular";
-  background: #000;
-  /* Old browsers */
-}
-
-/* line 71, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
-#facebook .share {
-  color: white;
-  font-family: "Open Sans";
-  background: #000;
-  /* Old browsers */
+/* line 137, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+#shareme .button {
+  max-width: 50px;
+  margin: 10px 10px 10px 10px;
 }
 
 /* line 8, ../sass/estilo.scss */
@@ -135,7 +201,7 @@
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 1000px;
+  height: 1048px;
   overflow: hidden;
   position: absolute;
   left: 0px%;
@@ -151,30 +217,46 @@
   margin-left: -750px;
   z-index: 0;
 }
-/* line 50, ../sass/estilo.scss */
+/* line 51, ../sass/estilo.scss */
 #fondo #base, #fondoSVG #base {
   background: url("/img/base.png") top center no-repeat;
+  -webkit-background-size: 1500px 1200px;
+  -moz-background-size: 1500px 1200px;
+  -o-background-size: 1500px 1200px;
+  background-size: 1500px 1200px;
   z-index: -250;
 }
-/* line 54, ../sass/estilo.scss */
+/* line 56, ../sass/estilo.scss */
 #fondo #lineasBlancas, #fondoSVG #lineasBlancas {
   background: url("/img/lineasBlancas.png") top center no-repeat;
+  -webkit-background-size: 1500px 1200px;
+  -moz-background-size: 1500px 1200px;
+  -o-background-size: 1500px 1200px;
+  background-size: 1500px 1200px;
   z-index: -50;
 }
-/* line 58, ../sass/estilo.scss */
+/* line 61, ../sass/estilo.scss */
 #fondo #lineasColores, #fondoSVG #lineasColores {
   background: url("/img/lineasColores.png") top center no-repeat;
+  -webkit-background-size: 1500px 1200px;
+  -moz-background-size: 1500px 1200px;
+  -o-background-size: 1500px 1200px;
+  background-size: 1500px 1200px;
   z-index: -200;
 }
-/* line 62, ../sass/estilo.scss */
+/* line 66, ../sass/estilo.scss */
 #fondo #logo, #fondoSVG #logo {
   background: url("/img/logo.png") top center no-repeat;
+  -webkit-background-size: 1500px 1200px;
+  -moz-background-size: 1500px 1200px;
+  -o-background-size: 1500px 1200px;
+  background-size: 1500px 1200px;
   z-index: -25;
 }
 
 /* estilo para el banner superior
 */
-/* line 70, ../sass/estilo.scss */
+/* line 75, ../sass/estilo.scss */
 .imprimir {
   top: -35px;
   -webkit-transition: top 0.5s ease-in-out 2s;
@@ -190,11 +272,11 @@
   border-top: 1px solid silver;
   box-shadow: inset 0 1px white, 0 1px 3px rgba(34, 25, 25, 0.4);
 }
-/* line 71, ../sass/estilo.scss */
+/* line 76, ../sass/estilo.scss */
 .imprimir.ensena {
   top: 0px;
 }
-/* line 83, ../sass/estilo.scss */
+/* line 88, ../sass/estilo.scss */
 .imprimir p {
   display: block;
   position: relative;
@@ -207,7 +289,7 @@
   color: #221919;
   text-shadow: 0 1px white;
 }
-/* line 94, ../sass/estilo.scss */
+/* line 99, ../sass/estilo.scss */
 .imprimir p .icon-print {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -224,35 +306,35 @@
   margin: 0px;
   padding: 5px 5px 5px 5px;
 }
-/* line 108, ../sass/estilo.scss */
+/* line 113, ../sass/estilo.scss */
 .imprimir p .print {
   padding: 0px;
   margin: 0px;
 }
-/* line 111, ../sass/estilo.scss */
+/* line 116, ../sass/estilo.scss */
 .imprimir p .print a:link, .imprimir p .print a:visited {
   text-decoration: none;
   color: inherit;
 }
-/* line 114, ../sass/estilo.scss */
+/* line 119, ../sass/estilo.scss */
 .imprimir p .print a:link:hover, .imprimir p .print a:visited:hover {
   text-decoration: underline;
 }
 
 /*
 */
-/* line 123, ../sass/estilo.scss */
+/* line 128, ../sass/estilo.scss */
 #mc_embed_signup {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 125, ../sass/estilo.scss */
+/* line 130, ../sass/estilo.scss */
 #mc_embed_signup form {
   height: 42px;
   margin: 0px;
   padding: 0px;
 }
-/* line 129, ../sass/estilo.scss */
+/* line 134, ../sass/estilo.scss */
 #mc_embed_signup form input {
   height: 42px;
   -webkit-box-sizing: border-box;
@@ -270,13 +352,13 @@
   z-index: 1;
   display: block;
 }
-/* line 143, ../sass/estilo.scss */
+/* line 148, ../sass/estilo.scss */
 #mc_embed_signup form input[type=email] {
   float: left;
   color: #4A4B4F;
   width: 80%;
 }
-/* line 148, ../sass/estilo.scss */
+/* line 153, ../sass/estilo.scss */
 #mc_embed_signup form input[type=submit] {
   float: right;
   color: #4A4B4F;
@@ -284,27 +366,27 @@
   text-align: right;
   cursor: hand;
 }
-/* line 154, ../sass/estilo.scss */
+/* line 159, ../sass/estilo.scss */
 #mc_embed_signup form input[type=submit]:hover {
   color: #F7921E;
 }
 
-/* line 161, ../sass/estilo.scss */
+/* line 166, ../sass/estilo.scss */
 body {
   margin: 0px;
 }
 
-/* line 164, ../sass/estilo.scss */
+/* line 169, ../sass/estilo.scss */
 a:link, a:visited {
   text-decoration: underline;
   color: inherit;
 }
-/* line 167, ../sass/estilo.scss */
+/* line 172, ../sass/estilo.scss */
 a:link:hover, a:visited:hover {
   color: black;
 }
 
-/* line 172, ../sass/estilo.scss */
+/* line 177, ../sass/estilo.scss */
 .contenedor {
   overflow: hidden;
   *zoom: 1;
@@ -325,17 +407,17 @@ a:link:hover, a:visited:hover {
 .contenedor html > body {
   font-size: 16px;
 }
-/* line 181, ../sass/estilo.scss */
+/* line 186, ../sass/estilo.scss */
 .contenedor header {
   height: 270px;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 184, ../sass/estilo.scss */
+/* line 189, ../sass/estilo.scss */
 .contenedor header hgroup {
   text-align: center;
 }
-/* line 186, ../sass/estilo.scss */
+/* line 191, ../sass/estilo.scss */
 .contenedor header hgroup h1 {
   font-family: 'roboto_slabregular';
   margin-top: 0.5em;
@@ -350,7 +432,7 @@ a:link:hover, a:visited:hover {
   /* IE6 & 7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 195, ../sass/estilo.scss */
+/* line 200, ../sass/estilo.scss */
 .contenedor section {
   color: #4A4B4F;
   padding-left: 180px;
@@ -362,7 +444,7 @@ a:link:hover, a:visited:hover {
   padding-bottom: 0em;
   margin-bottom: 2.5em;
 }
-/* line 200, ../sass/estilo.scss */
+/* line 205, ../sass/estilo.scss */
 .contenedor section h2 {
   font-family: 'roboto_slabregular';
   margin-top: 0em;
@@ -373,7 +455,7 @@ a:link:hover, a:visited:hover {
   line-height: 2em;
   font-weight: normal;
 }
-/* line 206, ../sass/estilo.scss */
+/* line 211, ../sass/estilo.scss */
 .contenedor section p {
   font-family: 'Open Sans';
   margin-top: 0em;
@@ -384,7 +466,7 @@ a:link:hover, a:visited:hover {
   line-height: 1.5em;
   font-weight: normal;
 }
-/* line 215, ../sass/estilo.scss */
+/* line 220, ../sass/estilo.scss */
 .contenedor #participa p {
   border-top: 1px #4A4B4F solid;
   margin-top: 0em;
@@ -393,7 +475,7 @@ a:link:hover, a:visited:hover {
   margin-bottom: 0em;
 }
 
-/* line 220, ../sass/estilo.scss */
+/* line 225, ../sass/estilo.scss */
 #pie {
   border-style: solid;
   border-width: 3px 0px 0px;
@@ -403,7 +485,7 @@ a:link:hover, a:visited:hover {
   border-image: url(/img/dashLine.png) 53 0 0 fill repeat;
   min-width: 980px;
 }
-/* line 228, ../sass/estilo.scss */
+/* line 233, ../sass/estilo.scss */
 #pie #fondoPie {
   width: 100%;
   background-color: #F7921E;
@@ -411,7 +493,7 @@ a:link:hover, a:visited:hover {
   z-index: -100;
   height: 260px;
 }
-/* line 235, ../sass/estilo.scss */
+/* line 240, ../sass/estilo.scss */
 #pie footer {
   position: relative;
   z-index: 100;
@@ -425,7 +507,7 @@ a:link:hover, a:visited:hover {
   padding-bottom: 6em;
   margin-bottom: 0em;
 }
-/* line 244, ../sass/estilo.scss */
+/* line 249, ../sass/estilo.scss */
 #pie footer p {
   font-family: 'Open Sans';
   margin-top: 0em;
@@ -436,13 +518,13 @@ a:link:hover, a:visited:hover {
   line-height: 1.5em;
   font-weight: normal;
 }
-/* line 250, ../sass/estilo.scss */
+/* line 255, ../sass/estilo.scss */
 #pie footer p a:link, #pie footer p a:visited {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-/* line 255, ../sass/estilo.scss */
+/* line 260, ../sass/estilo.scss */
 #pie footer p a:hover {
   text-decoration: underline;
 }
@@ -454,34 +536,34 @@ a:link:hover, a:visited:hover {
     margin: none;
 }
 
-  /* line 270, ../sass/estilo.scss */
+  /* line 275, ../sass/estilo.scss */
   .ocultaPantalla {
     display: block;
   }
 
-  /* line 273, ../sass/estilo.scss */
+  /* line 278, ../sass/estilo.scss */
   #fondo {
     -webkit-print-color-adjust: exact;
   }
-  /* line 275, ../sass/estilo.scss */
+  /* line 280, ../sass/estilo.scss */
   #fondo #lineasBlancas {
     background: none;
   }
-  /* line 278, ../sass/estilo.scss */
+  /* line 283, ../sass/estilo.scss */
   #fondo #lineasColores {
     background: none;
   }
-  /* line 281, ../sass/estilo.scss */
+  /* line 286, ../sass/estilo.scss */
   #fondo #logo {
     background: none;
   }
 
-  /* line 285, ../sass/estilo.scss */
+  /* line 290, ../sass/estilo.scss */
   .ocultaImprime {
     display: none;
   }
 
-  /* line 288, ../sass/estilo.scss */
+  /* line 293, ../sass/estilo.scss */
   .muestraImprime {
     display: block;
   }
