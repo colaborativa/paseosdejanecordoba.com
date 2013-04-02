@@ -31,12 +31,11 @@ $('#shareme').sharrre({
     facebook: {layout: 'button_count'},
     twitter: {count: 'horizontal'},
   },
-
   hover: function(api, options){
-    $(api.element).find('.buttons').show();
+    $(api.element).find('.buttons').fadeIn();
   },
   hide: function(api, options){
-    $(api.element).find('.buttons').hide();
+    $(api.element).find('.buttons').fadeOut();
   }
 });
 $(document).ready(function(){

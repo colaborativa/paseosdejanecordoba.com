@@ -104,7 +104,7 @@ z-index:1000;
 #shareme .count {
 	color: #4A4B4F;
   font-family:'roboto_slablight';
-  font-size:53px;
+  font-size:51px;
   float:left;
   border-right:2px solid #F7921E;
   line-height:40px;
@@ -124,7 +124,9 @@ z-index:1000;
 	-moz-border-radius:4px;
 	border-radius:4px;
   position: absolute;
-  width: 150px;
+  @include box-sizing (border-box);
+  width: 192px;
+  height:92px;
   right: 0px;
   top: -25px;
   background-color:#fff;
@@ -136,5 +138,6 @@ z-index:1000;
 }
 #shareme .button {
   max-width:50px;
+    height:20px;
   margin:10px 10px 10px 10px;
 }

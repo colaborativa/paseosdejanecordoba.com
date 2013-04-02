@@ -98,7 +98,7 @@
 	background: #000;
 }
 */
-/* line 82, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 82, ../sass/_sharrre.scss */
 #example3 {
   width: 150px;
   height: 40px;
@@ -109,33 +109,33 @@
   z-index: 1000;
 }
 
-/* line 91, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 91, ../sass/_sharrre.scss */
 #shareme .box {
   width: 150px;
 }
 
-/* line 94, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 94, ../sass/_sharrre.scss */
 #shareme .box a {
   color: #404040;
 }
 
-/* line 99, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 99, ../sass/_sharrre.scss */
 #shareme .box a:link, #shareme .box a:visited, #shareme .box a:active {
   text-decoration: none;
 }
 
-/* line 104, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 104, ../sass/_sharrre.scss */
 #shareme .count {
   color: #4A4B4F;
   font-family: 'roboto_slablight';
-  font-size: 53px;
+  font-size: 51px;
   float: left;
   border-right: 2px solid #F7921E;
   line-height: 40px;
   padding-right: 15px;
 }
 
-/* line 113, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 113, ../sass/_sharrre.scss */
 #shareme .share {
   font-family: 'Open Sans';
   font-size: 18px;
@@ -146,13 +146,17 @@
   width: 82px;
 }
 
-/* line 122, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 122, ../sass/_sharrre.scss */
 #shareme .buttons {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   position: absolute;
-  width: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 192px;
+  height: 92px;
   right: 0px;
   top: -25px;
   background-color: #fff;
@@ -163,9 +167,10 @@
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* line 137, /Users/javito/Sites/paseosdejanecordoba.com/sass/_sharrre.scss */
+/* line 139, ../sass/_sharrre.scss */
 #shareme .button {
   max-width: 50px;
+  height: 20px;
   margin: 10px 10px 10px 10px;
 }
 
@@ -209,48 +214,48 @@
 }
 /* line 41, ../sass/estilo.scss */
 #fondo .capaFondo, #fondo .capaSVG, #fondoSVG .capaFondo, #fondoSVG .capaSVG {
-  width: 1500px;
+  width: 1700px;
   height: 1200px;
   position: absolute;
   left: 50%;
   top: 0px;
-  margin-left: -750px;
+  margin-left: -850px;
   z-index: 0;
 }
 /* line 51, ../sass/estilo.scss */
 #fondo #base, #fondoSVG #base {
   background: url("/img/base.png") top center no-repeat;
-  -webkit-background-size: 1500px 1200px;
-  -moz-background-size: 1500px 1200px;
-  -o-background-size: 1500px 1200px;
-  background-size: 1500px 1200px;
+  -webkit-background-size: 1700px 1200px;
+  -moz-background-size: 1700px 1200px;
+  -o-background-size: 1700px 1200px;
+  background-size: 1700px 1200px;
   z-index: -250;
 }
 /* line 56, ../sass/estilo.scss */
 #fondo #lineasBlancas, #fondoSVG #lineasBlancas {
   background: url("/img/lineasBlancas.png") top center no-repeat;
-  -webkit-background-size: 1500px 1200px;
-  -moz-background-size: 1500px 1200px;
-  -o-background-size: 1500px 1200px;
-  background-size: 1500px 1200px;
+  -webkit-background-size: 1700px 1200px;
+  -moz-background-size: 1700px 1200px;
+  -o-background-size: 1700px 1200px;
+  background-size: 1700px 1200px;
   z-index: -50;
 }
 /* line 61, ../sass/estilo.scss */
 #fondo #lineasColores, #fondoSVG #lineasColores {
   background: url("/img/lineasColores.png") top center no-repeat;
-  -webkit-background-size: 1500px 1200px;
-  -moz-background-size: 1500px 1200px;
-  -o-background-size: 1500px 1200px;
-  background-size: 1500px 1200px;
+  -webkit-background-size: 1700px 1200px;
+  -moz-background-size: 1700px 1200px;
+  -o-background-size: 1700px 1200px;
+  background-size: 1700px 1200px;
   z-index: -200;
 }
 /* line 66, ../sass/estilo.scss */
 #fondo #logo, #fondoSVG #logo {
   background: url("/img/logo.png") top center no-repeat;
-  -webkit-background-size: 1500px 1200px;
-  -moz-background-size: 1500px 1200px;
-  -o-background-size: 1500px 1200px;
-  background-size: 1500px 1200px;
+  -webkit-background-size: 1700px 1200px;
+  -moz-background-size: 1700px 1200px;
+  -o-background-size: 1700px 1200px;
+  background-size: 1700px 1200px;
   z-index: -25;
 }
 
@@ -264,7 +269,7 @@
   -ms-transition: top 0.5s ease-in-out 2s;
   -o-transition: top 0.5s ease-in-out 2s;
   transition: top 0.5s ease-in-out 2s;
-  z-index: 1000;
+  z-index: 2000;
   position: fixed;
   width: 100%;
   height: 35px;
@@ -398,12 +403,12 @@ a:link:hover, a:visited:hover {
   padding-bottom: 0em;
   margin-bottom: 2em;
 }
-/* line 58, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 58, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 .contenedor body {
   font-size: 100%;
   line-height: 1.5em;
 }
-/* line 62, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 62, ../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 .contenedor html > body {
   font-size: 16px;
 }

@@ -2,10 +2,10 @@
 <!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1500px" height="1200px" viewBox="0 0 1500 1200" enable-background="new 0 0 1500 1200" xml:space="preserve">
+	 width="1700px" height="1200px" viewBox="0 0 1700 1200" enable-background="new 0 0 1700 1200" xml:space="preserve">
 <g>
 	<defs>
-		<rect id="SVGID_1_" x="1" width="1248" height="238"/>
+		<rect id="SVGID_1_" x="45" width="1306" height="237"/>
 	</defs>
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  overflow="visible"/>
@@ -13,37 +13,37 @@
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_3_" width="1500" height="1200"/>
+		<rect id="SVGID_3_" width="1700" height="1200"/>
 	</defs>
 	<clipPath id="SVGID_4_">
 		<use xlink:href="#SVGID_3_"  overflow="visible"/>
 	</clipPath>
 	<g clip-path="url(#SVGID_4_)">
 		<defs>
-			<rect id="SVGID_5_" x="-55.32" y="-24.594" width="1356.953" height="265.271"/>
+			<rect id="SVGID_5_" x="18.344" y="-24.594" width="1383.289" height="265.078"/>
 		</defs>
 		<clipPath id="SVGID_6_">
 			<use xlink:href="#SVGID_5_"  overflow="visible"/>
 		</clipPath>
 		
 			<path clip-path="url(#SVGID_6_)" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="10,10" d="
-			M-2762.32,24.312c208.641,125.688,434.047,219.344,703.184,209.68s319.691-157.867,641.77-250.586"/>
+			M-2741.656-16.594c208.641,125.688,460.383,260.25,729.52,250.586s319.692-157.867,641.77-250.586"/>
 	</g>
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_7_" width="1500" height="1200"/>
+		<rect id="SVGID_7_" width="1700" height="1200"/>
 	</defs>
 	<clipPath id="SVGID_8_">
 		<use xlink:href="#SVGID_7_"  overflow="visible"/>
 	</clipPath>
 	
 		<path clip-path="url(#SVGID_8_)" fill="none" stroke="#78797B" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="10,10" d="
-		M-49.32,24.312C159.32,150,384.727,243.656,653.863,233.992s319.691-157.867,641.77-250.586"/>
+		M24.344-16.594c208.641,125.688,460.383,260.25,729.52,250.586s319.691-157.867,641.77-250.586"/>
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_9_" x="96" width="943" height="1199"/>
+		<rect id="SVGID_9_" x="196" width="943" height="1199"/>
 	</defs>
 	<clipPath id="SVGID_10_">
 		<use xlink:href="#SVGID_9_"  overflow="visible"/>
@@ -51,34 +51,34 @@
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_11_" width="1500" height="1200"/>
+		<rect id="SVGID_11_" width="1700" height="1200"/>
 	</defs>
 	<clipPath id="SVGID_12_">
 		<use xlink:href="#SVGID_11_"  overflow="visible"/>
 	</clipPath>
 	<g clip-path="url(#SVGID_12_)">
 		<defs>
-			<rect id="SVGID_13_" x="91.689" y="-34.07" width="951.81" height="1412.429"/>
+			<rect id="SVGID_13_" x="191.689" y="-34.07" width="951.81" height="1412.429"/>
 		</defs>
 		<clipPath id="SVGID_14_">
 			<use xlink:href="#SVGID_13_"  overflow="visible"/>
 		</clipPath>
 		
 			<path clip-path="url(#SVGID_14_)" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="11,11" d="
-			M-1659.742,1372.36c-180.453-219.586-153.281-736.759-125.336-866.18c27.945-129.422,118.32-262.945,283.984-311.312
-			s408.094,55.938,514.806,18.52C-879.576,175.969-853.844,15.11-869.867-26.07"/>
+			M-1559.742,1372.36c-180.453-219.586-153.281-736.759-125.336-866.18c27.945-129.422,118.32-262.945,283.984-311.312
+			s408.094,55.938,514.806,18.52C-779.576,175.969-753.844,15.11-769.867-26.07"/>
 	</g>
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_15_" width="1500" height="1200"/>
+		<rect id="SVGID_15_" width="1700" height="1200"/>
 	</defs>
 	<clipPath id="SVGID_16_">
 		<use xlink:href="#SVGID_15_"  overflow="visible"/>
 	</clipPath>
 	
-		<path clip-path="url(#SVGID_16_)" fill="none" stroke="#F99300" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="11,11" d="
-		M243.258,1372.36C62.805,1152.774,89.977,635.602,117.922,506.18c27.945-129.422,118.32-262.945,283.984-311.312
-		S810,250.805,916.712,213.387c106.713-37.418,132.444-198.277,116.421-239.457"/>
+		<path clip-path="url(#SVGID_16_)" fill="none" stroke="#F7921E" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="11,11" d="
+		M343.258,1372.36c-180.453-219.586-153.281-736.759-125.336-866.18c27.945-129.422,118.32-262.945,283.984-311.312
+		s408.094,55.938,514.806,18.52c106.713-37.418,132.444-198.277,116.421-239.457"/>
 </g>
 </svg>
