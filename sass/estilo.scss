@@ -18,10 +18,12 @@
 .oculto{
 	@include hiddenelement;
 }
-
+.ocultaPantalla{
+	display: none;
+}
 /* estilo para el fondo de la web
 */
-#fondo{
+#fondo, #fondoSVG{
 	min-width: 980px;
 	-moz-user-select: none; 
 	-khtml-user-select: none; 
@@ -36,7 +38,7 @@
 	position:absolute;
 	left:0px%;
 	top:0px;
-	.capaFondo{
+	.capaFondo, .capaSVG{
 		width: 1500px;
 		height: 1200px;
 		position:absolute;
@@ -106,20 +108,65 @@
 		.print{
 			padding: 0px; 
 			margin: 0px;
-			a:hover{
-				text-decoration: underline;
+			a:link, a:visited {
+				text-decoration: none;
+				color: inherit;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+/*
+*/
+#mc_embed_signup{
+	@include clearfix;
+	form{
+		height:42px;
+		margin: 0px;
+		padding: 0px;
+		input{
+			height:42px;
+			@include box-sizing (border-box);
+			padding: 6px 0px;
+			font-family:'roboto_slabregular';
+			@include adjust-font-size-to(24px);
+			border: none;
+			line-height: 1em;
+			background: none;
+			outline: none;
+			position: relative;
+			z-index: 1;
+			display: block;
+		}
+		input[type=email]{
+			float: left;
+			color: #4A4B4F;
+			width: 80%;
+		}
+		input[type=submit]{
+			float: right;
+			color: #4A4B4F;
+			width: 20%;
+			text-align: right;
+			cursor:hand;
+			&:hover{
+				color: #F7921E;
 			}
 		}
 	}
 }
 
-
 body{
 	margin:0px;
 }
-a:link, a:visited, a:hover{
-	text-decoration: none;
-	color: black
+a:link, a:visited{
+	text-decoration: underline;
+	color: inherit;
+	&:hover{
+		color: black;
+	}
 }
 
 .contenedor{
@@ -137,7 +184,7 @@ a:link, a:visited, a:hover{
 		hgroup{
 			text-align: center;
 			h1{
-				font-family:'RobotoSlab-Light';
+				font-family:'roboto_slabregular';
 				@include rhythm(1/2, 0, 0, 0, $base-line-height);
 				@include adjust-font-size-to(55px);
 				font-weight: normal;
@@ -151,7 +198,7 @@ a:link, a:visited, a:hover{
 		padding-right: 180px;
 		@include clearfix;
 		h2{
-			font-family:'RobotoSlab-Regular';
+			font-family:'roboto_slabregular';
 			@include rhythm(0, 0, 0, 0, $base-line-height);
 			@include adjust-font-size-to(24px);
 			font-weight: normal;
@@ -165,6 +212,10 @@ a:link, a:visited, a:hover{
 		@include rhythm(0, 0, 0, 2.5, $base-line-height);
 	}
 	@include rhythm(0, 0, 0, 2, $base-line-height);
+	#participa p{
+		border-top: 1px #4A4B4F solid ;
+		@include rhythm(0, 0.5, 0, 0, $base-line-height);
+	}
 }
 #pie{
 	border-style: solid;
@@ -212,99 +263,29 @@ a:link, a:visited, a:hover{
 
 @media print {
 	@page  { 
-		size: auto;
-		width:100%;
-		margin: 5mm 10mm 10mm 10mm;  
+		size:8.5in 11in;
+		width: 50%;
+		margin: none;  
 	}
-	.botonesSociales, footer, .piePagina, .imprimir{
-		display: none;
+	.ocultaPantalla{
+		display: block;
+	}
+	#fondo{
+		-webkit-print-color-adjust: exact;
+		#lineasBlancas{
+			background: none;
+		}
+		#lineasColores{
+			background: none;
+		}
+		#logo{
+			background: none;
+		}
 	}
 	.ocultaImprime{
 		display: none;
 	}
-	a:link:after, a:visited:after {
-	    content: "";
-	}
-	body  { 
-		width:100%;
-		@include box-sizing (border-box);
-		margin: 0mm 0mm 0mm 0mm;
-		padding: 0mm 0mm 0mm 0mm;
-		.contenedor{
-			header{
-				width:100%;
-				margin: 0mm 0mm 3mm 0mm;
-				padding: 0mm 0mm 0mm 0mm;
-				.creditos{
-					width:100%;
-					margin: 0mm 0mm 5mm 0mm;
-					padding: 0mm 0mm 0mm 0mm;
-				}
-				hgroup{
-					width:100%;
-					margin: 0mm 0mm 0mm 0mm;
-					padding: 0mm 0mm 0mm 0mm;
-					h1{
-						width:100%;
-						margin: 0mm 0mm 0mm 0mm;
-						padding: 0mm 0mm 0mm 0mm;
-					}
-					h2{
-						width:100%;
-						margin: 0mm 0mm 0mm 0mm;
-						padding: 0mm 0mm 0mm 0mm;
-					}
-				}
-			}
-			section{
-				width:100%;
-				margin: 0cm;
-				padding: 0cm;
-				hgroup{
-					margin: 0cm 0cm 0.5cm 0cm;
-					padding: 0cm 0cm 0.5cm 0cm;
-					border-bottom: 1pt dotted black;
-				}
-				article{
-					width: 100%;
-					margin: 1cm 0cm 0.75cm 0cm;
-					padding: 0cm 0cm 0.5cm 0cm;
-					border-bottom: 1pt dotted silver;
-					.imagen-img{
-						height:5cm;
-						padding: 0.2cm 0cm 0cm 1cm;
-						width: 7.5cm;
-					}
-					.horario{
-						@include box-sizing (border-box);
-						margin: 0cm;
-						padding: 0cm;
-						width:50%;
-						padding-right: 1cm;
-						.inscripcion{
-							@include box-sizing (border-box);
-							margin: 0cm;
-							padding: 0cm;
-							width:50%;
-							padding-right: 1cm;
-						}
-					}
-					.informacion{
-						margin: 0cm;
-						padding: 0cm;
-						width:50%;
-					}
-				}
-				.notapie{
-					font: 16px/22px 'Open Sans', sans-serif;
-					.nota_web{
-						display: none;
-					}
-					.nota_impresa{
-						display: inline;
-					}
-				}
-			}
-		}	
+	.muestraImprime{
+		display: block;
 	}
 }

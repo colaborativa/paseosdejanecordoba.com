@@ -33,6 +33,6 @@ desc "Run jekyll for Development at http://localhost:4000/"
 task :launch do
 
   # jekyll --auto --server --url http://localhost:4000/
-  sh "jekyll --auto --server --url http://localhost:4000/"
+  sh "jekyll serve -w"
 
 end
