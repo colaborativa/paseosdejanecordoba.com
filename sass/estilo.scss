@@ -49,8 +49,9 @@
 
 	}
 	#base{
-		background: url("/img/base.png") top center no-repeat;
-		@include background-size(1700px 1200px);
+		background: url("/img/base.png") top center repeat-y;
+		@include background-size(1700px 2000px);
+		height: 2000px;
 		z-index: -250;
 	}
 	#lineasBlancas{

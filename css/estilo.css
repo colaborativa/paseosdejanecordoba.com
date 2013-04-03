@@ -106,7 +106,7 @@
 */
 #fondo, #fondoSVG { min-width: 980px; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; user-select: none; margin: 0px; padding: 0px; width: 100%; height: 1048px; overflow: hidden; position: absolute; left: 0px%; top: 0px; }
 #fondo .capaFondo, #fondo .capaSVG, #fondoSVG .capaFondo, #fondoSVG .capaSVG { width: 1700px; height: 1200px; position: absolute; left: 50%; top: 0px; margin-left: -850px; z-index: 0; }
-#fondo #base, #fondoSVG #base { background: url("/img/base.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -250; }
+#fondo #base, #fondoSVG #base { background: url("/img/base.png") top center repeat-y; -webkit-background-size: 1700px 2000px; -moz-background-size: 1700px 2000px; -o-background-size: 1700px 2000px; background-size: 1700px 2000px; height: 2000px; z-index: -250; }
 #fondo #lineasBlancas, #fondoSVG #lineasBlancas { background: url("/img/lineasBlancas.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -50; }
 #fondo #lineasColores, #fondoSVG #lineasColores { background: url("/img/lineasColores.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -200; }
 #fondo #logo, #fondoSVG #logo { background: url("/img/logo.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -25; }
