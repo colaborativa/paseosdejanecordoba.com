@@ -49,7 +49,7 @@
 
 	}
 	#base{
-		background: url("/img/base.png") top center repeat-y;
+		background: url("/img/background.jpg") top center repeat;
 		@include background-size(1700px 2000px);
 		height: 2000px;
 		z-index: -250;
