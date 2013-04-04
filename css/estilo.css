@@ -82,7 +82,7 @@
 */
 #example3 { width: 150px; height: 40px; position: absolute; top: 125px; left: 50%; margin-left: 330px; z-index: 1000; }
 
-#shareme .box { width: 150px; }
+#shareme .box { width: 230px; }
 
 #shareme .box a { color: #404040; }
 
