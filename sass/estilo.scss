@@ -48,11 +48,13 @@
 		z-index:0;
 
 	}
+	/* move to body
 	#base{
 		background: url("/img/background.jpg") top center repeat;
 		height: 2000px;
 		z-index: -250;
 	}
+	*/
 	#lineasBlancas{
 		background: url("/img/lineasBlancas.png") top center no-repeat;
 		@include background-size(1700px 1200px);
@@ -165,6 +167,8 @@
 
 body{
 	margin:0px;
+	background: url("/img/background.jpg") top center repeat;
+	z-index: -250;
 }
 a:link, a:visited{
 	text-decoration: underline;
