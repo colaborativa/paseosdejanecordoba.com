@@ -80,7 +80,9 @@
 	background: #000;
 }
 */
-#example3 { width: 150px; height: 40px; position: absolute; top: 125px; left: 50%; margin-left: 330px; z-index: 1000; }
+.contenedorlike { width: 980px; margin: 0px auto; }
+
+#example3 { width: 150px; height: 40px; position: absolute; top: 120px; margin-left: 760px; z-index: 1000; }
 
 #shareme .box { width: 230px; }
 
@@ -147,12 +149,12 @@ a:link:hover, a:visited:hover { color: black; }
 .contenedor header hgroup { text-align: center; }
 .contenedor header hgroup h1 { font-family: 'roboto_slabregular'; margin-top: 0.5em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 3.438em; line-height: 1.309em; font-weight: normal; position: absolute; clip: rect(1px 1px 1px 1px); /* IE6 & 7 */ clip: rect(1px, 1px, 1px, 1px); }
 .contenedor section { color: #4A4B4F; padding-left: 180px; padding-right: 180px; overflow: hidden; *zoom: 1; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 2.5em; }
-.contenedor section h2 { font-family: 'roboto_slabregular'; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 1.5em; line-height: 2em; font-weight: normal; }
+.contenedor section h2 { font-family: 'roboto_slabregular'; margin-top: 0em; padding-top: 0em; padding-bottom: 0.6em; margin-bottom: 0em; font-size: 1.5em; line-height: 1.2em; font-weight: normal; }
 .contenedor section p { font-family: 'Open Sans'; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 1em; line-height: 1.5em; font-weight: normal; }
 .contenedor #participa p { border-top: 1px #4A4B4F solid; margin-top: 0em; padding-top: 0.5em; padding-bottom: 0em; margin-bottom: 0em; }
 
-#pie { border-style: solid; border-width: 3px 0px 0px; -moz-border-image: url(/img/dashLine.png) 53 0 0 repeat; -webkit-border-image: url(/img/dashLine.png) 53 0 0 repeat; -o-border-image: url(/img/dashLine.png) 53 0 0 repeat; border-image: url(/img/dashLine.png) 53 0 0 fill repeat; min-width: 980px; }
-#pie #fondoPie { width: 100%; background-color: #F7921E; position: absolute; z-index: -100; height: 260px; }
+#pie { overflow: hidden; *zoom: 1; border-style: solid; border-width: 3px 0px 0px; -moz-border-image: url(/img/dashLine.png) 53 0 0 repeat; -webkit-border-image: url(/img/dashLine.png) 53 0 0 repeat; -o-border-image: url(/img/dashLine.png) 53 0 0 repeat; border-image: url(/img/dashLine.png) 53 0 0 fill repeat; min-width: 980px; }
+#pie #fondoPie { overflow: hidden; *zoom: 1; min-width: 980px; width: 100%; background-color: #F7921E; position: absolute; z-index: -100; height: 260px; }
 #pie footer { position: relative; z-index: 100; color: white; width: 620px; margin: 0px auto 0px auto; padding-left: 180px; padding-right: 180px; margin-top: 0em; padding-top: 2em; padding-bottom: 6em; margin-bottom: 0em; }
 #pie footer p { font-family: 'Open Sans'; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 1em; font-size: 1em; line-height: 1.5em; font-weight: normal; }
 #pie footer p a:link, #pie footer p a:visited { color: white; text-decoration: none; font-weight: bold; }
