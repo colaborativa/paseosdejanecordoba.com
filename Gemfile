@@ -1,7 +1,6 @@
 source "http://rubygems.org"
 
-gem 'directory_watcher', '1.4.1'
-gem 'jekyll', '0.12.0'
+gem "jekyll", "~> 1.0.0.beta4"
 gem 'rake'
 gem 'RedCloth'
 gem 'sass'
