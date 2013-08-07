@@ -51,23 +51,23 @@
 	}
 	/* move to body
 	#base{
-		background: url("/img/background.jpg") top center repeat;
+		background: url("../img/background.jpg") top center repeat;
 		height: 2000px;
 		z-index: -250;
 	}
 	*/
 	#lineasBlancas{
-		background: url("/img/lineasBlancas.png") top center no-repeat;
+		background: url("../img/lineasBlancas.png") top center no-repeat;
 		@include background-size(1700px 1200px);
 		z-index: 500;
 	}
 	#lineasColores{
-		background: url("/img/lineasColores.png") top center no-repeat;
+		background: url("../img/lineasColores.png") top center no-repeat;
 		@include background-size(1700px 1200px);
 		z-index: -200;
 	}
 	#logo{
-		background: url("/img/logo.png") top center no-repeat;
+		background: url("../img/logo.png") top center no-repeat;
 		@include background-size(1700px 1200px);
 		z-index: 600;
 	}
@@ -106,7 +106,7 @@
 			height:35px;
 			line-height: 35px;
 			vertical-align: middle;
-			background-image: url(/img/printer.png);
+			background-image: url(../img/printer.png);
 			background-repeat: no-repeat;
 			background-size: 17px 17px;
 			background-position: 8px 8px;
@@ -168,7 +168,7 @@
 
 body{
 	margin:0px;
-	background: url("/img/background.jpg") top center repeat;
+	background: url("../img/background.jpg") top center repeat;
 	z-index: -250;
 }
 a:link, a:visited{
@@ -232,10 +232,10 @@ a:link, a:visited{
 	border-style: solid;
 	background-color: #F7921E;
 	border-width: 3px 0px 0px;
-	-moz-border-image: url(/img/dashLine.png) 53 0 0 repeat;
-	-webkit-border-image: url(/img/dashLine.png) 53 0 0 repeat;
-	-o-border-image: url(/img/dashLine.png) 53 0 0 repeat;
-	border-image: url(/img/dashLine.png) 53 0 0 fill repeat;
+	-moz-border-image: url(../img/dashLine.png) 53 0 0 repeat;
+	-webkit-border-image: url(../img/dashLine.png) 53 0 0 repeat;
+	-o-border-image: url(../img/dashLine.png) 53 0 0 repeat;
+	border-image: url(../img/dashLine.png) 53 0 0 fill repeat;
 	min-width: 980px;
 	#fondoPie{
 		@include clearfix;

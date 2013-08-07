@@ -108,22 +108,22 @@
 */
 #fondo, #fondoSVG { min-width: 980px; pointer-events: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; user-select: none; margin: 0px; padding: 0px; width: 100%; height: 1035px; overflow: hidden; position: absolute; left: 0px%; top: 0px; /* move to body
 #base{
-	background: url("/img/background.jpg") top center repeat;
+	background: url("../img/background.jpg") top center repeat;
 	height: 2000px;
 	z-index: -250;
 }
 */ }
 #fondo .capaFondo, #fondo .capaSVG, #fondoSVG .capaFondo, #fondoSVG .capaSVG { width: 1700px; height: 1200px; position: absolute; left: 50%; top: 0px; margin-left: -850px; z-index: 0; }
-#fondo #lineasBlancas, #fondoSVG #lineasBlancas { background: url("/img/lineasBlancas.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: 500; }
-#fondo #lineasColores, #fondoSVG #lineasColores { background: url("/img/lineasColores.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -200; }
-#fondo #logo, #fondoSVG #logo { background: url("/img/logo.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: 600; }
+#fondo #lineasBlancas, #fondoSVG #lineasBlancas { background: url("../img/lineasBlancas.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: 500; }
+#fondo #lineasColores, #fondoSVG #lineasColores { background: url("../img/lineasColores.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: -200; }
+#fondo #logo, #fondoSVG #logo { background: url("../img/logo.png") top center no-repeat; -webkit-background-size: 1700px 1200px; -moz-background-size: 1700px 1200px; -o-background-size: 1700px 1200px; background-size: 1700px 1200px; z-index: 600; }
 
 /* estilo para el banner superior
 */
-.imprimir { top: -35px; -webkit-transition: top 0.5s ease-in-out 2s; -moz-transition: top 0.5s ease-in-out 2s; -ms-transition: top 0.5s ease-in-out 2s; -o-transition: top 0.5s ease-in-out 2s; transition: top 0.5s ease-in-out 2s; z-index: 2000; position: fixed; width: 100%; height: 35px; background: #FAFAFA; border-top: 1px solid silver; box-shadow: inset 0 1px white, 0 1px 3px rgba(34, 25, 25, 0.4); }
+.imprimir { top: -35px; -webkit-transition: top 0.5s ease-in-out; -webkit-transition-delay: 2s; -moz-transition: top 0.5s ease-in-out 2s; -o-transition: top 0.5s ease-in-out 2s; transition: top 0.5s ease-in-out 2s; z-index: 2000; position: fixed; width: 100%; height: 35px; background: #FAFAFA; border-top: 1px solid silver; box-shadow: inset 0 1px white, 0 1px 3px rgba(34, 25, 25, 0.4); }
 .imprimir.ensena { top: 0px; }
-.imprimir p { display: block; position: relative; width: 980px; padding: 0px; margin: 0px auto; text-align: center; line-height: 35px; font: 14px/35px "Open Sans", sans-serif; color: #221919; text-shadow: 0 1px white; }
-.imprimir p .icon-print { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; width: 35px; height: 35px; line-height: 35px; vertical-align: middle; background-image: url(/img/printer.png); background-repeat: no-repeat; background-size: 17px 17px; background-position: 8px 8px; margin: 0px; padding: 5px 5px 5px 5px; }
+.imprimir p { display: block; position: relative; width: 980px; padding: 0px; margin: 0px auto; text-align: center; line-height: 35px; font: 14px/35px 'Open Sans', sans-serif; color: #221919; text-shadow: 0 1px white; }
+.imprimir p .icon-print { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; width: 35px; height: 35px; line-height: 35px; vertical-align: middle; background-image: url(../img/printer.png); background-repeat: no-repeat; background-size: 17px 17px; background-position: 8px 8px; margin: 0px; padding: 5px 5px 5px 5px; }
 .imprimir p .print { padding: 0px; margin: 0px; }
 .imprimir p .print a:link, .imprimir p .print a:visited { text-decoration: none; color: inherit; }
 .imprimir p .print a:link:hover, .imprimir p .print a:visited:hover { text-decoration: underline; }
@@ -137,23 +137,23 @@
 #mc_embed_signup form input[type=submit] { float: right; color: #4A4B4F; width: 20%; text-align: right; cursor: hand; }
 #mc_embed_signup form input[type=submit]:hover { color: #F7921E; }
 
-body { margin: 0px; background: url("/img/background.jpg") top center repeat; z-index: -250; }
+body { margin: 0px; background: url("../img/background.jpg") top center repeat; z-index: -250; }
 
 a:link, a:visited { text-decoration: underline; color: inherit; }
 a:link:hover, a:visited:hover { color: black; }
 
 .contenedor { overflow: hidden; *zoom: 1; width: 980px; margin: 0px auto; position: relative; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 2em; }
-.contenedor body { font-size: 100%; line-height: 1.5em; }
-.contenedor html > body { font-size: 16px; }
+.contenedor * html { font-size: 100%; }
+.contenedor html { font-size: 16px; line-height: 1.5em; }
 .contenedor header { height: 270px; overflow: hidden; *zoom: 1; }
 .contenedor header hgroup { text-align: center; }
-.contenedor header hgroup h1 { font-family: 'roboto_slabregular'; margin-top: 0.5em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 3.438em; line-height: 1.309em; font-weight: normal; position: absolute; clip: rect(1px 1px 1px 1px); /* IE6 & 7 */ clip: rect(1px, 1px, 1px, 1px); }
+.contenedor header hgroup h1 { font-family: 'roboto_slabregular'; margin-top: 0.5em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 3.4375em; line-height: 1.30909em; font-weight: normal; position: absolute; clip: rect(1px 1px 1px 1px); /* IE6 & 7 */ clip: rect(1px, 1px, 1px, 1px); }
 .contenedor section { color: #4A4B4F; padding-left: 180px; padding-right: 180px; overflow: hidden; *zoom: 1; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 2.5em; }
 .contenedor section h2 { font-family: 'roboto_slabregular'; margin-top: 0em; padding-top: 0em; padding-bottom: 0.6em; margin-bottom: 0em; font-size: 1.5em; line-height: 1.2em; font-weight: normal; }
 .contenedor section p { font-family: 'Open Sans'; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0em; font-size: 1em; line-height: 1.5em; font-weight: normal; }
-.contenedor #participa p { border-top: 1px #4A4B4F solid; margin-top: 0em; padding-top: 0.5em; padding-bottom: 0em; margin-bottom: 0em; }
+.contenedor #participa p { border-top: 1px #4a4b4f solid; margin-top: 0em; padding-top: 0.5em; padding-bottom: 0em; margin-bottom: 0em; }
 
-#pie { overflow: hidden; *zoom: 1; border-style: solid; background-color: #F7921E; border-width: 3px 0px 0px; -moz-border-image: url(/img/dashLine.png) 53 0 0 repeat; -webkit-border-image: url(/img/dashLine.png) 53 0 0 repeat; -o-border-image: url(/img/dashLine.png) 53 0 0 repeat; border-image: url(/img/dashLine.png) 53 0 0 fill repeat; min-width: 980px; }
+#pie { overflow: hidden; *zoom: 1; border-style: solid; background-color: #F7921E; border-width: 3px 0px 0px; -moz-border-image: url(../img/dashLine.png) 53 0 0 repeat; -webkit-border-image: url(../img/dashLine.png) 53 0 0 repeat; -o-border-image: url(../img/dashLine.png) 53 0 0 repeat; border-image: url(../img/dashLine.png) 53 0 0 fill repeat; min-width: 980px; }
 #pie #fondoPie { overflow: hidden; *zoom: 1; min-width: 980px; width: 100%; position: absolute; z-index: -300; height: 260px; background-color: #F7921E; }
 #pie footer { position: relative; z-index: 100; color: white; width: 620px; margin: 0px auto 0px auto; padding-left: 180px; padding-right: 180px; margin-top: 0em; padding-top: 2em; padding-bottom: 6em; margin-bottom: 0em; }
 #pie footer p { font-family: 'Open Sans'; margin-top: 0em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 1em; font-size: 1em; line-height: 1.5em; font-weight: normal; }
